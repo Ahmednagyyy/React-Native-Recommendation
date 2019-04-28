@@ -31,7 +31,7 @@ Components Props
 | titleText      | Recommendation upper title text| String||
 | titleStyle      | Recommendation text style |   Style ||
 | backgroundColor  | Recommendation view background color      |    Color ||
-| width | Recommendation view width size ( full width is recommended )      |    Number ||
+| width | Recommendation view width size (full width is recommended)      |    Number ||
 | selectedColor | Selected option color      |    Color ||
 | selectedTextColor | Selected option text color      |    Color ||
 | selectedSize | width * height sizes and automatic adjust circular shape --- example: 30 means 30 height, 30 width, and 15 border radius     |    Number ||
