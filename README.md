@@ -36,7 +36,7 @@ Components Props
 | selectedTextColor | Selected option text color      |    Color ||
 | selectedSize | width * height sizes and automatic adjust circular shape --- example: 30 means 30 height, 30 width, and 15 border radius     |    Number ||
 | max | Recommendation option maximum numbers range      |    Number ||
-| selectedValue | Returned selected value      |    Callback |selectedValue={ (value) => // your code}| 
+| selectedValue | Returned selected value      |    Callback |selectedValue={ (value) => // your code }| 
 
 
 
