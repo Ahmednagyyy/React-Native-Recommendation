@@ -1,5 +1,4 @@
 # React-Native-Recommendation
-=======
 
 Features
 --------
