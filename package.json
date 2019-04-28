@@ -1,15 +1,12 @@
 {
   "name": "react-native-recommendation",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A React Native component for generating and displaying interactive rating and recommendation views",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Ahmednagyyy/React-Native-Recommendation"
-  },
+  "repository": "https://github.com/Ahmednagyyy/React-Native-Recommendation",
   "keywords": [
     "react",
     "native",
@@ -32,8 +29,5 @@
     "lodash": "^4.17.5",
     "react": "*",
     "react-native": "*"
-  },
-  "dependencies": {
-    "react-native-recommendation": "file:../react-native-recommendation"
   }
 }
