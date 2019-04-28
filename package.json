@@ -1,0 +1,35 @@
+{
+  "name": "react-native-recommendation",
+  "version": "1.0.0",
+  "description": "A React Native component for generating and displaying interactive rating and recommendation views",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "rating",
+    "react",
+    "native",
+    "recommendation",
+    "rating",
+    "rate",
+    "ratings",
+    "recommendation",
+    "nps",
+    "stars",
+    "rating",
+    "stars"
+  ],
+  "author": "ahmednagyyy <ahmed.nagii2511@gmail.com>",
+  "license": "ISC",
+  "peerDependencies": {
+    "lodash": "^4.17.5",
+    "react": "*",
+    "react-native": "*"
+  },
+  "dependencies": {
+    "react-native-recommendation": "file:../react-native-recommendation"
+  }
+}
