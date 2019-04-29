@@ -115,6 +115,8 @@ Components Props
 | reactionTextList | Set reaction test relative to user selection       |    Array of Strings || 
 | reactionList | Set reaction images relative to user selection      |    Array of require(images) || 
 
+---
+
 `<Recommendation/>` 
 
 | Prop        | Notes           | Type  | Signature (func) |
