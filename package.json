@@ -1,6 +1,6 @@
 {
   "name": "react-native-recommendation",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A React Native component for generating and displaying interactive rating and recommendation views",
   "main": "lib/index.js",
   "scripts": {
