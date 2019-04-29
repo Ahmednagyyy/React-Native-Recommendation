@@ -10,7 +10,7 @@ Features
 
 Example
 --
-![](https://media.giphy.com/media/frNRhpgOmNH0WD6Mk2/giphy.gif)
+![](https://media.giphy.com/media/hR0H9YRIb2qVUSXj36/giphy.gif)
 
 Installation
 -
@@ -114,6 +114,23 @@ Components Props
 | reactionsEnabled | Adding smile faces reactions to recommendation  (default false)   |    Boolean || 
 | reactionTextList | Set reaction test relative to user selection       |    Array of Strings || 
 | reactionList | Set reaction images relative to user selection      |    Array of require(images) || 
+
+`<Recommendation/>` 
+
+| Prop        | Notes           | Type  | Signature (func) |
+| ------------- |:-------------:| -----:|:-|
+| titleText      | Rating upper title text| String||
+| titleStyle      | Rating text style |   Style ||
+| backgroundColor  | Rating view background color      |    Color ||
+| width | Rating view width size     |    Number ||
+| selectedColor | Selected icon color      |    Color ||
+| unSelectedColor | Unselected icon color      |    Color ||
+| iconStyle | Rating icon style   |    Style ||
+| max | Rating option maximum numbers range      |    Number ||
+| selectedValue | Returned selected value      |    Callback |selectedValue={ (value) => // your code }| 
+| customSelected | Set selected customized rating icon      |    require(image)  || 
+| customUnSelected | Set unselected customized rating icon ( customSelected prop is the default value     |   require(image) || 
+
 
 
 
