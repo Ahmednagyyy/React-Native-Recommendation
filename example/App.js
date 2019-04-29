@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { Recommendation } from 'react-native-recommendation'
+import { Recommendation, Rating } from 'react-native-recommendation'
 
 textList=["FROM 9 -> 10","FROM 6 -> 8","FROM 5 -> 4","FROM 2 -> 3","FROM 0 -> 1"]
 
@@ -16,8 +16,18 @@ export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
+
+        <Rating 
+        titleText={"Rating Test"}
+        titleStyle={{ alignSelf: 'center', fontWeight: 'bold'}}
+        selectedColor={'red'}
+        max={5}/>
+
+        <View style={styles.separator}/>
+
         <Recommendation 
-        titleText={"Recomendation Test"}
+        titleText={"NPS Test"}
+        titleStyle={{ alignSelf: 'center', fontWeight: 'bold'}}
         selectedColor={'red'}
         selectedTextColor={'white'}
         unSelectedTextColor={'black'}
@@ -37,5 +47,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
+  },
+  separator:{
+    marginVertical: 30,
+    width: '100%',
+    backgroundColor:'rgba(0,0,0,0.1)',
+    height: 1
   }
 });

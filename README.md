@@ -6,11 +6,11 @@ Features
 --------
 
 - Net Promoter Score (NPS) view for recommendation and add reviews ( Released :heavy_check_mark: :rocket: )
-- Stars and custom images rating ( Baking :cookie:  :hourglass: )
+- Stars and custom images rating ( Released :heavy_check_mark: :rocket: )
 
 Example
 --
-![](https://media.giphy.com/media/eguy2GVuThkcVC3UhO/giphy.gif)
+![](https://media.giphy.com/media/frNRhpgOmNH0WD6Mk2/giphy.gif)
 
 Installation
 -
@@ -21,9 +21,17 @@ or
 Usage
 -
 ```javascript
-import { Recommendation } from 'react-native-recommendation'
+import { Recommendation , Rating } from 'react-native-recommendation'
 ...
 
+ <Rating 
+        titleText={"Rating Test"}
+        titleStyle={{ alignSelf: 'center', fontWeight: 'bold'}}
+        selectedColor={'red'}
+        max={5}
+        selectedValue={(value)=> // returns selected value } 
+        />
+        
  <Recommendation 
         titleText={"Recomendation Test"}
         selectedColor={'red'}
@@ -36,15 +44,15 @@ import { Recommendation } from 'react-native-recommendation'
         />
 ```
 
-**For customized reaction icons and text do as the following**
+**For customized icons and text do as the following**
 
 ```javascript
 import { Recommendation } from 'react-native-recommendation'
 ...
-// Add your reaction description texts in this order
+// Add NPS reaction description texts in this order
 textList=["FROM 9 -> 10","FROM 6 -> 8","FROM 5 -> 4","FROM 2 -> 3","FROM 0 -> 1"]
 
-// Add reaction icons same as text order
+// Add NPS reaction icons same as text order
 emojiList=[
   require('./assets/ic_love.png'),
   require('./assets/ic_happy.png'),
@@ -52,6 +60,18 @@ emojiList=[
   require('./assets/ic_sad.png'),
   require('./assets/ic_angry.png')
 ]
+
+...
+
+ <Rating 
+        titleText={"Rating Test"}
+        titleStyle={{ alignSelf: 'center', fontWeight: 'bold'}}
+        selectedColor={'red'}
+        max={5}
+        selectedValue={(value)=> // returns selected value } 
+        customSelected={require('./assets/ic_happy.png')}
+        customUnSelected={require('./assets/ic_happy.png')} // default value as customSelected prop
+        />
 
  <Recommendation 
         titleText={"Recomendation Test"}
@@ -72,7 +92,7 @@ Components
 --
 `<Recommendation/>`
 
-`<StarRating/>` ( Baking :cookie:  :hourglass: )
+`<StarRating/>`
 
 
 
