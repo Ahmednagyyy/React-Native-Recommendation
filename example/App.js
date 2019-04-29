@@ -28,12 +28,12 @@ export default class App extends Component {
         <Recommendation 
         titleText={"NPS Test"}
         titleStyle={{ alignSelf: 'center', fontWeight: 'bold'}}
-        selectedColor={'orange'}
+        selectedColor={'black'}
         selectedTextColor={'white'}
         unSelectedTextColor={'black'}
         selectedSize={30}
-        // reactionTextList={textList}
-        // reactionList={emojiList}
+        reactionTextList={textList}
+        reactionList={emojiList}
         max={10}
         reactionsEnabled/>
       </View>
