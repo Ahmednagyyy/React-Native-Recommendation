@@ -22,8 +22,8 @@ export default class App extends Component {
         selectedTextColor={'white'}
         unSelectedTextColor={'black'}
         selectedSize={30}
-        // reactionTextList={textList}
-        // reactionList={emojiList}
+        reactionTextList={textList}
+        reactionList={emojiList}
         max={10}
         reactionsEnabled/>
       </View>
