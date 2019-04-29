@@ -16,7 +16,55 @@ Installation
 or
 `yarn add react-native-recommendation`
 
+Usage
+-
+```javascript
+import { Recommendation } from 'react-native-recommendation'
+...
 
+ <Recommendation 
+        titleText={"Recomendation Test"}
+        selectedColor={'red'}
+        selectedTextColor={'white'}
+        unSelectedTextColor={'black'}
+        selectedSize={30}
+        max={10}
+        selectedValue={(value)=> // returns selected value }
+        reactionsEnabled
+        />
+```
+
+`For customized reaction icons and text do as the following`
+
+```javascript
+import { Recommendation } from 'react-native-recommendation'
+...
+// Add your reaction description texts in this order
+textList=["FROM 9 -> 10","FROM 6 -> 8","FROM 5 -> 4","FROM 2 -> 3","FROM 0 -> 1"]
+
+// Add reaction icons same as text order
+emojiList=[
+  require('./assets/ic_love.png'),
+  require('./assets/ic_happy.png'),
+  require('./assets/ic_confused.png'),
+  require('./assets/ic_sad.png'),
+  require('./assets/ic_angry.png')
+]
+
+ <Recommendation 
+        titleText={"Recomendation Test"}
+        selectedColor={'red'}
+        selectedTextColor={'white'}
+        unSelectedTextColor={'black'}
+        selectedSize={30}
+        max={10}
+        selectedValue={(value)=> // returns selected value }
+        reactionsEnabled
+         // Add these
+        reactionTextList={textList}
+        reactionList={emojiList}
+        />
+```
 
 Components
 --
