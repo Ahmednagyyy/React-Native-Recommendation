@@ -38,8 +38,8 @@ Components Props
 | max | Recommendation option maximum numbers range      |    Number ||
 | selectedValue | Returned selected value      |    Callback |selectedValue={ (value) => // your code }| 
 | reactionsEnabled | Adding smile faces reactions to recommendation  (default false)   |    Boolean || 
-| reactionTextList | Set reaction test relative to user selection       |    Array<Strings> || 
-| reactionList | Set reaction images relative to user selection      |    Array<require(images)> || 
+| reactionTextList | Set reaction test relative to user selection       |    Array of Strings || 
+| reactionList | Set reaction images relative to user selection      |    Array of require(images) || 
 
 
 
