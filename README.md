@@ -92,7 +92,7 @@ Components
 --
 `<Recommendation/>`
 
-`<StarRating/>`
+`<Rating/>`
 
 
 
@@ -117,7 +117,7 @@ Components Props
 
 ---
 
-`<Recommendation/>` 
+`<Rating/>` 
 
 | Prop        | Notes           | Type  | Signature (func) |
 | ------------- |:-------------:| -----:|:-|
