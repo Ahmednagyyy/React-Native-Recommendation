@@ -34,7 +34,7 @@ import { Recommendation } from 'react-native-recommendation'
         />
 ```
 
-`For customized reaction icons and text do as the following`
+**For customized reaction icons and text do as the following**
 
 ```javascript
 import { Recommendation } from 'react-native-recommendation'
