@@ -6,6 +6,8 @@ Features
 - Net Promoter Score (NPS) view for recommendation and add reviews ( Released :heavy_check_mark: :rocket: )
 - Stars and custom images rating ( Baking :cookie:  :hourglass: )
 
+![](https://media.giphy.com/media/eguy2GVuThkcVC3UhO/giphy.gif)
+
 Installation
 -
 `npm i react-native-recommendation`
