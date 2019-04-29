@@ -19,8 +19,8 @@ export default class App extends Component {
 
         <Rating 
         titleText={"Rating Test"}
-        titleStyle={{ alignSelf: 'center', fontWeight: 'bold'}}
         selectedColor={'orange'}
+        titleStyle={{ alignSelf: 'center', fontWeight: 'bold'}}
         max={5}/>
 
         <View style={styles.separator}/>
