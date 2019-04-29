@@ -6,6 +6,10 @@ Features
 - Net Promoter Score (NPS) view for recommendation and add reviews ( Released :heavy_check_mark: :rocket: )
 - Stars and custom images rating ( Baking :cookie:  :hourglass: )
 
+Example
+--
+![](https://media.giphy.com/media/eguy2GVuThkcVC3UhO/giphy.gif)
+
 Installation
 -
 `npm i react-native-recommendation`
@@ -37,6 +41,9 @@ Components Props
 | selectedSize | width * height sizes and automatic adjust circular shape --- example: 30 means 30 height, 30 width, and 15 border radius     |    Number ||
 | max | Recommendation option maximum numbers range      |    Number ||
 | selectedValue | Returned selected value      |    Callback |selectedValue={ (value) => // your code }| 
+| reactionsEnabled | Adding smile faces reactions to recommendation  (default false)   |    Boolean || 
+| reactionTextList | Set reaction test relative to user selection       |    Array of Strings || 
+| reactionList | Set reaction images relative to user selection      |    Array of require(images) || 
 
 
 
