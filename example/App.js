@@ -20,7 +20,7 @@ export default class App extends Component {
         <Rating 
         titleText={"Rating Test"}
         titleStyle={{ alignSelf: 'center', fontWeight: 'bold'}}
-        selectedColor={'red'}
+        selectedColor={'orange'}
         max={5}/>
 
         <View style={styles.separator}/>
@@ -28,12 +28,12 @@ export default class App extends Component {
         <Recommendation 
         titleText={"NPS Test"}
         titleStyle={{ alignSelf: 'center', fontWeight: 'bold'}}
-        selectedColor={'red'}
+        selectedColor={'orange'}
         selectedTextColor={'white'}
         unSelectedTextColor={'black'}
         selectedSize={30}
-        reactionTextList={textList}
-        reactionList={emojiList}
+        // reactionTextList={textList}
+        // reactionList={emojiList}
         max={10}
         reactionsEnabled/>
       </View>
