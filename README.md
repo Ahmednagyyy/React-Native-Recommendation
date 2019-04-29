@@ -30,7 +30,7 @@ import { Recommendation } from 'react-native-recommendation'
         selectedSize={30}
         max={10}
         selectedValue={(value)=> // returns selected value }
-        reactionsEnabled
+        reactionsEnabled // Remove this to disable reaction icon and text
         />
 ```
 
