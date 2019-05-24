@@ -112,6 +112,9 @@ Components Props
 | reactionsEnabled | Adding smile faces reactions to recommendation  (default false)   |    Boolean || 
 | reactionTextList | Set reaction test relative to user selection       |    Array of Strings || 
 | reactionList | Set reaction images relative to user selection      |    Array of require(images) || 
+| disabled | Recommendation selecting disabled   |    Boolean || 
+| currentValue | Recommendation initial value     |    Number || 
+
 
 ---
 
@@ -129,7 +132,9 @@ Components Props
 | max | Rating option maximum numbers range      |    Number ||
 | selectedValue | Returned selected value      |    Callback |selectedValue={ (value) => // your code }| 
 | customSelected | Set selected customized rating icon      |    require(image)  || 
-| customUnSelected | Set unselected customized rating icon ( customSelected prop is the default value     |   require(image) || 
+| customUnSelected | Set unselected customized rating icon ( customSelected prop is the default value     |   require(image) ||
+| disabled | Recommendation selecting disabled   |    Boolean || 
+| currentValue | Recommendation initial value     |    Number ||  
 
 
 
