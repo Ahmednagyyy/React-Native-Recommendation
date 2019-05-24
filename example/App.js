@@ -21,21 +21,36 @@ export default class App extends Component {
         titleText={"Rating Test"}
         selectedColor={'orange'}
         titleStyle={{ alignSelf: 'center', fontWeight: 'bold'}}
-        max={5}/>
+        currentValue={2} // default is 1
+        max={5}
+        />
 
         <View style={styles.separator}/>
 
         <Recommendation 
-        titleText={"NPS Test"}
+        titleText={"Customized NPS"}
         titleStyle={{ alignSelf: 'center', fontWeight: 'bold'}}
         selectedColor={'black'}
         selectedTextColor={'white'}
         unSelectedTextColor={'black'}
         selectedSize={30}
+        currentValue={7} // default is 0
         reactionTextList={textList}
         reactionList={emojiList}
-        max={10}
+        max={10} // max is not more than 10 ( Recommended )
         reactionsEnabled/>
+
+        <View style={styles.separator}/>
+
+        <Recommendation 
+        titleText={"Package NPS"}
+        titleStyle={{ alignSelf: 'center', fontWeight: 'bold'}}
+        selectedColor={'red'}
+        selectedTextColor={'white'}
+        selectedSize={30}
+        currentValue={5} // default is 0
+        max={10} // max is not more than 10 ( Recommended )
+        reactionsEnabled/>  
       </View>
     );
   }

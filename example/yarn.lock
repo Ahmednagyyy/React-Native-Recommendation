@@ -4886,10 +4886,10 @@ react-is@^16.8.1, react-is@^16.8.3, react-is@^16.8.4:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
   integrity sha512-aUk3bHfZ2bRSVFFbbeVS4i+lNPZr3/WM5jT2J5omUVV1zzcs1nAaf3l51ctA5FFvCRbhrH0bdAsRRQddFJZPtA==
 
-react-native-recommendation@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/react-native-recommendation/-/react-native-recommendation-1.1.1.tgz#791e8b09b1121c37b364494b06d539b1b0f1ff45"
-  integrity sha512-p86dwc9SFy85L+XyNCZZBpHCjf3Q+08KoPuE98LgWex+Mg+8AH9Y8i7/sUEzxrB+oWOUd3h55Lb43Cnh5ickhw==
+react-native-recommendation@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/react-native-recommendation/-/react-native-recommendation-1.1.2.tgz#9e40d71a99a9814650ddc550ece0c9e09321ba20"
+  integrity sha512-zRlj56Sq5725IFsT7M5inv0ZQ9uD1VkEDn5CDO9AP4FlVklUp37NaAp9UW7OtTsqUn2VkAH+2mYmZeQyXBbpwA==
 
 react-native@0.59.5:
   version "0.59.5"
