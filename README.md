@@ -133,8 +133,8 @@ Components Props
 | selectedValue | Returned selected value      |    Callback |selectedValue={ (value) => // your code }| 
 | customSelected | Set selected customized rating icon      |    require(image)  || 
 | customUnSelected | Set unselected customized rating icon ( customSelected prop is the default value     |   require(image) ||
-| disabled | Recommendation selecting disabled   |    Boolean || 
-| currentValue | Recommendation initial value     |    Number ||  
+| disabled | Rating selecting disabled   |    Boolean || 
+| currentValue | Rating initial value     |    Number ||  
 
 
 
