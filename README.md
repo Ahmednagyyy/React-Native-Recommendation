@@ -66,6 +66,7 @@ emojiList=[
         titleStyle={{ alignSelf: 'center', fontWeight: 'bold'}}
         selectedColor={'red'}
         max={5}
+        currentValue={3} // Rating intial value default is 1
         selectedValue={(value)=> // returns selected value } 
         customSelected={require('./assets/ic_happy.png')}
         customUnSelected={require('./assets/ic_happy.png')} // default value as customSelected prop
@@ -78,6 +79,7 @@ emojiList=[
         unSelectedTextColor={'black'}
         selectedSize={30}
         max={10}
+        currentValue={3} // Recommendation intial value default is 0
         selectedValue={(value)=> // returns selected value }
         reactionsEnabled
          // Add these
