@@ -1,6 +1,7 @@
 # React-Native-Recommendation
 [![npm version](https://badge.fury.io/js/react-native-recommendation.svg)](https://badge.fury.io/js/react-native-recommendation)
 ![npm](https://img.shields.io/npm/dt/react-native-recommendation)
+
 Features
 --------
 
