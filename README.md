@@ -7,6 +7,7 @@ Features
 
 - Net Promoter Score (NPS) view for recommendation and add reviews ( Released :heavy_check_mark: :rocket: )
 - Stars and custom images rating ( Released :heavy_check_mark: :rocket: )
+- Decimal rating support ( Next Release :building_construction: :pencil2: )
 
 Example
 --
